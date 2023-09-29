@@ -1,4 +1,9 @@
 function playSoundPOM() {
-    document.querySelector("#som_tecla_pom").play();
+    document.querySelector('#som_tecla_pom').play();
 }
-var listOfKeys = document.querySelectorAll(".tecla");
+const teclas = document.querySelectorAll('.tecla');
+let c = 0;
+while (c < 9) {
+    c = c + 1;
+    console.log(c);
+}
